@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Literata';
+    src: url('fonts/Literata-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-image {
+    height: 90px;
+    width: auto;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    padding: 14px 17px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.navbar-links a.active {
+    background-color: #B6A15A;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar-links a:hover {
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar-links .nav-bar {
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Literata', sans-serif;
+    font-size: 55px;
+    color: #B6A15A;
+    margin-top: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.descriptor {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #828282; 
+    text-align: center; 
+    margin-bottom: 60px;
+}
+
+.yellow-bar {
+    height: 105px; 
+    background-color: #F2D260; 
+    width: 100%; 
+    margin-bottom: 59px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-heading {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px 80px;
+    margin-left: 100px;
+}
+
+.contact-info h3 {
+    font-size: 40px; 
+    margin-top: 15px; 
+}
+
+.contact-info h4 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 25px; 
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px 80px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.location {
+    flex-grow: 1;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.hours {
+    flex-grow: 1;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.shampoo-bottle {
+    flex: 1;
+    margin-left: 110px;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+
+.services-heading {
+    font-size: 40px;
+    display: flex;
+    gap: 50px;
+    margin: left;
+    margin-right: 350px;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+.services-section {
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    justify-content: space-between;
+    max-width: 573px;
+    margin-right: 80px;
+    background-color: #f4e19f;
+
+}
+
+.services-descriptor {
+    font-style: italic;
+    color: #957e32;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.services li {
+    list-style-type: none;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    color: #555;
+    list-style-type: none;
+}
+
+.services li:last-child {
+    border-bottom: none;
+}
+
+.services li > p {
+    margin-bottom: 5px;
+}
+
+.services-descriptor {
+    font-size: 5 px;
+}
+
+.experts-heading {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.experts-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 80px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.experts-info {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #F2D260;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    box-sizing: border-box;
+}
+
+.stylist-position {
+    font-style: italic;
+    color: black;
+}
+
+.stylist-image {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.copyright {
+    text-align: left;
+    background-color: rgb(235, 235, 235);
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.salon-title {
+    font-family: 'Literata', sans-serif;
+}
+
+.black-bar {
+    height: 30px; 
+    background-color: black; 
+    width: 100%; 
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.appointment-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2px;
+    font-family: 'Inter', sans-serif;
+}
+
+.appointment-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    padding: 20px; 
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+
+.appointment-section {
+    padding: 50px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    max-width: 100%;
+    background-color: #f4e19f;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-field {
+    text-align: left;
+    font-size: 20px;
+}
+
+.add-person {
+    border-radius: 10px;
+    padding: 12px 25px; 
+    font-size: 20px; 
+    border: none; 
+}
+
+.submit-booking {
+    border-radius: 10px;
+    padding: 15px 30px; 
+    font-size: 20px; 
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: column; 
+}
+
+.checkbox-item {
+    margin-bottom: 10px; 
+    flex-direction: column;
+}
